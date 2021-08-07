@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="styles.css" />
+    <title>Register</title>
+  </head>
+  <body>
+    <!-- Header for Register page. Contains title, subtitle & navbar -->
+    <header class="header">
+      <h1 class="title">Tasty TV</h1>
+
+      <h2 class="subTitle">Registration Page</h2>
+
+      <script src="./scripts/navbar.js"></script>
+    </header>
+
+    <!-- empty div designed to stretch out the page -->
+    <div class="spacing"></div>
+
+    <!-- MAIN CONTENT CONTAINER -->
+    <main id="regMain" class="mainContent">
+      <!-- Form for login/register details -->
+      <form id="regLogForm">
+        <h3 class="registerTitles">Use This To Register!</h3>
+
+        <label> Email: </label>
+
+        <br />
+
+        <input class="regInput" type="email" required placeholder="must have" />
+
+        <br />
+        <br />
+        <br />
+
+        <label> First Name: </label>
+
+        <br />
+
+        <input class="regInput" type="text" placeholder="optional" />
+
+        <br />
+        <br />
+        <br />
+
+        <label> Surname: </label>
+
+        <br />
+
+        <input class="regInput" type="text" required placeholder="must have" />
+
+        <br />
+        <br />
+        <br />
+
+        <label> On Demand Show/Movie Request:</label>
+
+        <br />
+
+        <input class="regInput" type="text" required placeholder="must have" />
+
+        <br />
+        <br />
+        <br />
+
+        <button id="regButton">Register</button>
+      </form>
+
+      <div id="regDetails">
+        <h3 class="registerTitles">Why Should You Register?</h3>
+
+        <p>
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit. Maxime
+          doloremque eos consectetur beatae ut minus non, corrupti quae quis
+          suscipit praesentium hic sit reprehenderit voluptatibus, excepturi
+          itaque ducimus labore eligendi?
+        </p>
+
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nemo odio
+          aliquid sed sit reprehenderit animi commodi doloribus et, perferendis
+          incidunt, soluta aspernatur ratione quisquam facilis iure atque quia
+          deleniti iusto.
+        </p>
+      </div>
+    </main>
+
+    <!-- empty div designed to stretch out the page -->
+    <div class="spacing"></div>
+
+    <!-- footer of the page, contains social media links 
+      & legal jargin-->
+    <footer class="footer">
+      <h4>Check us out on these Social Media sites!</h4>
+
+      <!-- Container for all the social media hyperlinks -->
+      <div class="socialLinks">
+        <!-- Each image/link for each social media platform. Opens new tab -->
+        <a href="https://www.facebook.com/" target="_blank">
+          <img
+            src="./img/socials/fb.png"
+            alt="image of the Facebook logo. Clicking it sends you to Tasty TV's page on it."
+            class="socialImage"
+          />
+        </a>
+
+        <a href="https://www.instagram.com/" target="_blank">
+          <img
+            src="./img/socials/insta.png"
+            alt="image of the Instagram logo. Clicking it sends you to Tasty TV's page on it."
+            class="socialImage"
+          />
+        </a>
+
+        <a href="https://twitter.com/" target="_blank">
+          <img
+            src="./img/socials/twitter.png"
+            alt="image of the Twitter logo. Clicking it sends you to Tasty TV's page on it."
+            class="socialImage"
+          />
+        </a>
+
+        <a href="https://www.youtube.com/" target="_blank">
+          <img
+            src="./img/socials/yt.png"
+            alt="image of the Youtube logo. Clicking it sends you to Tasty TV's page on it."
+            class="socialImage"
+          />
+        </a>
+
+        <a href="https://uk.linkedin.com/" target="_blank">
+          <img
+            src="./img/socials/linkin.png"
+            alt="image of the LinkedIn logo. Clicking it sends you to Tasty TV's page on it."
+            class="socialImage"
+          />
+        </a>
+      </div>
+
+      <!-- container for any and all legal jargin -->
+      <div class="jargin">
+        <!-- Each section is a pop down with more details for it. -->
+        <!-- terms condit -->
+        <details class="legal">
+          <summary>
+            <small>terms & conditions</small>
+          </summary>
+          blah blah legal ruse Lorem ipsum dolor, sit amet consectetur
+          adipisicing elit. Minima, deserunt animi ipsa temporibus earum
+          nostrum? Vero illo animi totam perferendis? Nemo unde voluptates
+          beatae sequi obcaecati voluptas ipsam provident consequuntur!
+        </details>
+
+        <!-- copyright owners -->
+        <details class="legal">
+          <summary>
+            <small>copyright ownerships</small>
+          </summary>
+          blah blah copyright ruse Lorem ipsum dolor sit amet consectetur
+          adipisicing elit. Dignissimos excepturi nihil perspiciatis? Magnam
+          autem nam quibusdam ab ad quia reprehenderit. Fuga aliquam vitae,
+          incidunt qui praesentium in consequatur numquam a?
+        </details>
+
+        <!-- contacting info -->
+        <details class="legal">
+          <summary>
+            <small>contact us</small>
+          </summary>
+          blah blah contacting ruse Lorem, ipsum dolor sit amet consectetur
+          adipisicing elit. Odio labore, vero debitis doloribus veniam itaque.
+          Doloribus eos fuga eum neque itaque sunt natus nostrum. Ad aliquam
+          laborum tempora tempore nemo.
+        </details>
+      </div>
+    </footer>
+
+    <script src="./scripts/script.js"></script>
+  </body>
+</html>

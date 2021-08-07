@@ -1,0 +1,298 @@
+/* THIS CODE EFFECT ALL PAGES */
+
+/* removing bodies margin */
+body {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* HEADER FOR EVERY PAGE */
+/* Header of every page */
+.header {
+  /* set background to yellow */
+  background-color: yellow;
+
+  /* setting text alignment to center */
+  text-align: center;
+
+  margin-bottom: 5px;
+
+  border-bottom: 2px solid black;
+
+  box-shadow: 0px 3px 5px black;
+}
+
+/* Title of every page */
+.title {
+  /* set margin to remove white edging & centralise title */
+  margin: 0px 25%;
+
+  /* adding padding */
+  padding: 4px;
+}
+
+/* subtitle for every page */
+.subTitle {
+  margin: 5px;
+}
+
+/* navbar for every page */
+.navbar {
+  /* setting its display type + adding spacing */
+  display: flex;
+
+  flex-wrap: wrap;
+
+  justify-content: space-around;
+
+  margin: 5px;
+  padding: 5px;
+}
+
+/* Navbar's links */
+.navLink {
+  /* setting text colour */
+  color: black;
+
+  /* set padding & margin*/
+  padding: 10px;
+
+  margin: 1px;
+
+  border-style: solid;
+}
+
+/* Spacing for Every Pages Main Content */
+.spacing {
+  height: 5vh;
+}
+
+/* FOOTER FOR EVERY PAGE */
+/* Footer for every page */
+.footer {
+  display: flex;
+  flex-flow: column nowrap;
+
+  text-align: center;
+
+  /* setting background colour */
+
+  background-color: yellow;
+
+  border-top: 2px solid black;
+
+  box-shadow: 0px -3px 5px black;
+}
+
+/* display type/spacing for social media links */
+.socialLinks {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.socialImage {
+  background-color: black;
+  border-radius: 5px;
+
+  padding: 5px;
+}
+
+.jargin {
+  margin-top: 2px;
+}
+
+/* legal jargin's content for every page */
+.legal {
+  /* setting display to inline */
+  display: inline;
+}
+
+/* MAIN CONTENT STYLES FOR PAGES */
+
+/* MAIN CONTENT OF HOMEPAGE*/
+/* homepage main content sections default styles*/
+.homeMainSection {
+  /* setting border*/
+  border: 2px solid black;
+
+  /* padding & margins */
+  padding: 2px;
+  margin: 2px;
+
+  text-align: center;
+}
+
+/* If screen is wide enough. Use this display */
+@media screen and (min-width: 700px) {
+  /* social media link images */
+  .socialImage {
+    /* setting height and width */
+    height: 10vh;
+
+    widows: 10vw;
+  }
+
+  #homeMain {
+    /* setting display */
+    display: flex;
+    justify-content: center;
+  }
+
+  /* homepage main content sections */
+  .homeMainSection {
+    /* setting size */
+    width: 45%;
+  }
+
+  /* image(s) within main content sections */
+  .homeSectionImage {
+    /* setting size */
+    height: 30vh;
+    width: 40vw;
+  }
+}
+
+/* if screen is narrow enough, use this display */
+@media screen and (max-width: 699px) {
+  /* social media link images */
+  .socialImage {
+    /* setting height and width */
+    height: 5vh;
+
+    widows: 5vw;
+  }
+
+  #homeMain {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  /* homepage main content sections */
+  .homeMainSection {
+    /* setting size */
+    width: 90%;
+  }
+
+  /* image(s) within main content sections */
+  .homeSectionImage {
+    /* setting size */
+    height: 25vh;
+    width: 50vw;
+  }
+}
+
+/* SCHEDULING STYLES */
+
+/* Schedule Main Container */
+#scheduleMain {
+  /* adding a border and setting display type */
+  border: 2px solid black;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+/* Individual schedule containers */
+.scheduleBox {
+  text-align: center;
+
+  width: 250px;
+
+  flex-grow: 1;
+}
+
+/* Individual images for schedule*/
+.scheduleImage {
+  height: 280px;
+  width: 230px;
+}
+
+/*  ANNOUNCEMENT PAGE MAIN CONTENT STYLES */
+/* Includes matching styles for several pages main sections */
+
+/* Sectioning of main content */
+.announceBox,
+.aboutSection,
+.scheduleBox,
+#regMain {
+  /* adding border */
+  border: 2px solid black;
+
+  /* adding margin to remove edge touch */
+  margin: 5px;
+
+  padding: 5px;
+}
+/* All titles within main content */
+.announceMainTitles {
+  /* adjusting text alignment */
+  text-align: center;
+}
+
+/* Image within announcement section */
+.announceImage {
+  /* margin to centralise & width*/
+  width: 80%;
+  height: 50%;
+  margin: 0px 10%;
+}
+
+/* Last line in the announce main content */
+#announceEnd {
+  /* aligning text to center */
+  text-align: center;
+}
+
+/* STYLES FOR ABOUT US PAGE MAIN CONTENT */
+
+/* Titles for sections within main */
+.aboutMainTitles {
+  /* aligning titles center */
+  text-align: center;
+}
+
+/* Image of the CEO */
+#ceo {
+  /* setting size */
+  height: 30vh;
+  width: 30vw;
+}
+
+/* display container for ceo pic & info */
+#ceoDisplay {
+  /* setting display */
+  display: flex;
+}
+
+/* STYLES FOR REGISTRATION PAGE'S MAIN CONTENT */
+
+/* Main content container */
+#regMain {
+  /* setting display to flex */
+  display: flex;
+
+  flex-flow: column;
+
+  align-items: center;
+}
+
+/* User Form section */
+#regLogForm {
+  /* setting background colour */
+  background-color: pink;
+
+  /* setting a border */
+  border: 2px solid green;
+
+  /* setting the width & adding some padding */
+  padding: 1%;
+}
+
+/* titles within the main content */
+.registerTitles {
+  /* setting text to be centralised */
+  text-align: center;
+}
