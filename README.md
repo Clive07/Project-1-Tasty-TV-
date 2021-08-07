@@ -6,7 +6,7 @@ Created using Javascript, HTML & CSS.
 ## Table of contents
 
 - [Introduction](#introduction)
-- [Technologies Used](#technologies-used-&-imagery-used)
+- [Technologies & Imagery Used](#technologies-used-&-imagery-used)
 - [Launch](#launch)
 - [To Do](#to-do)
 - [List Of Known Issues](#list-of-known-issues)
@@ -16,7 +16,7 @@ Created using Javascript, HTML & CSS.
 
 Tasty TV's website was created as a training project. It is the first project for my online course. It's here to evaluate my ability with the programming languages used. Whilst also assessing my ability to deliver on the deliverables from a 'clients brief'
 
-#### Technologies Used & Imagery Used
+### Technologies Used & Imagery Used
 
 - Javascript
 - HTML
@@ -24,14 +24,15 @@ Tasty TV's website was created as a training project. It is the first project fo
 
 Codesandbox was the platform used during the creation.
 
-These are the images I used for the social media platform links.
+#### These are the images I used for the social media platform links.
 
 [<img src="./img/socials/fb.png" alt="facebook logo" height="80px" width="80px"/>]<img src="./img/socials/insta.png" alt="instagram logo" height="80px" width="80px"/>
 [<img src="./img/socials/linkin.png" alt="linkedin logo" height="80px" width="80px"/>
 [<img src="./img/socials/twitter.png" alt="twitter logo" height="80px" width="80px"/>
 [<img src="./img/socials/yt.png" alt="youtube logo" height="80px" width="80px"/>
 
-These are the images I used for the companies social media content
+#### These are the images I used for the companies social media content
+
 [<img src="./img/schedule/Scrubs.jpg" alt="facebook logo" height="80px" width="80px"/>
 [<img src="./img/schedule/alwaysSun.jpg" alt="always sunny logo" height="80px" width="80px"/>
 [<img src="./img/schedule/batman.jpg" alt="justice league logo" height="80px" width="80px"/>
@@ -39,18 +40,19 @@ These are the images I used for the companies social media content
 [<img src="./img/schedule/mother.jpg" alt="hoe i met your mother logo" height="80px" width="80px"/>
 [<img src="./img/other/steel.jpg" alt="man of steel logo" height="80px" width="80px"/>
 
-These are the images used for other effects e.g. photo of companies ceo & announcements
+####These are the images used for other effects e.g. photo of companies ceo & announcements
+
 [<img src="./img/other/CEOPhoto.jpg" alt="photo of a monkey in a suit" height="80px" width="80px"/>
 [<img src="./img/other/Santa.jpg" alt="caption of robot santa from futurama" height="80px" width="80px"/>
 [<img src="./img/other/friends.jpg" alt="picture of the cast from friends" height="80px" width="80px"/>
 
-##### Launch
+### Launch
 
-URL: (to be added after hosting lesson)
+URL: (https://csb-4k3wz-5fdnsosxm-clive07.vercel.app/)
 
 I believe that since it is a mere static website nothing is particularly needed. You could copy from the Code drop down menu and open up a new sandbox on Codesandbox to examine more thoroughly.
 
-###### To Do
+### To Do
 
 - check out the days streaming schedule
 - check out any announcements by the company
@@ -58,7 +60,7 @@ I believe that since it is a mere static website nothing is particularly needed.
 - get a random movie or tv show recommendation
 - 'register' to the companies on demand + streaming service
 
-###### List Of Known Issues
+### List Of Known Issues
 
 The fundamental issue I faced was wanting to add too much flair when the time restrictions made it near impossible.
 
@@ -90,7 +92,7 @@ My first thought for the recommendation feature was not only to suggest a show/m
 
 However time restraints made it so this additional creativity was unable to be added.
 
-###### Lessons Learnt
+### Lessons Learnt
 
 I realise I have a habit of overdoing things and going the extra mile when it is quite unnecassary. The priority of a project is giving the wanted deliverables. A fancy or creative site is nice however it is useless if it doesn't actually deliver on what it needs to do.
 
